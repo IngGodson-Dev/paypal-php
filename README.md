@@ -27,7 +27,7 @@ Ce client ne traite pas les webhooks, ne stocke pas de commandes et n’impléme
 Installez-le dans votre application :
 
 ```bash
-composer require goddy/paypal-php
+composer require IngGodson-Dev/paypal-php
 ```
 ## Configuration
 
