@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Goddy\\PayPal\\Tests\\PayPalClientTest::testCreateOrderUsesOAuthAndReturnsPayPalResponse":0.029,"Goddy\\PayPal\\Tests\\PayPalClientTest::testCreateOrderRejectsInvalidAmountBeforeMakingRequest":0.003,"Goddy\\PayPal\\Tests\\PayPalClientTest::testCaptureOrderCallsTheOrdersCaptureEndpoint":0.001}}
