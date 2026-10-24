@@ -3,28 +3,44 @@
   "description": "Client PHP orienté objet pour l'API PayPal Orders v2.",
   "type": "library",
   "license": "MIT",
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/IngGodson-Dev/paypal-php"
+    }
+  ],
+
   "require": {
-    "php": "^8.5.11",
+    "php": "^8.2",
     "ext-curl": "*",
     "ext-json": "*"
   },
+
   "require-dev": {
     "phpunit/phpunit": "^9.6"
   },
+
   "autoload": {
     "psr-4": {
       "Goddy\\PayPal\\": "src/"
     }
   },
+
   "autoload-dev": {
     "psr-4": {
       "Goddy\\PayPal\\Tests\\": "tests/"
     }
   },
+
   "scripts": {
     "test": "phpunit"
   },
+
   "config": {
     "sort-packages": true
-  }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
