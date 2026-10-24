@@ -27,4 +27,13 @@
   "config": {
     "sort-packages": true
   }
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/IngGodson-Dev/paypal-php"
+        }
+    ],
+    "require": {
+        "inggodson-dev/paypal-php": "dev-main"
+    }
 }
