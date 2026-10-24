@@ -1,5 +1,5 @@
 {
-  "name": "goddy/paypal-php",
+  "name": "paypal-php",
   "description": "Client PHP orienté objet pour l'API PayPal Orders v2.",
   "type": "library",
   "license": "MIT",
