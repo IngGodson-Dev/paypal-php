@@ -24,21 +24,11 @@ Ce client ne traite pas les webhooks, ne stocke pas de commandes et n’impléme
 
 ## Installation
 
-Après publication du package sur Packagist, installez-le dans votre application :
+Installez-le dans votre application :
 
 ```bash
 composer require goddy/paypal-php
 ```
-
-Pour travailler sur ce dépôt avant sa publication :
-
-```bash
-git clone https://github.com/VOTRE-COMPTE/VOTRE-DEPOT.git
-cd VOTRE-DEPOT
-composer install
-composer test
-```
-
 ## Configuration
 
 Créez une application REST dans le tableau de bord PayPal et récupérez son **Client ID** et son **Secret**. Commencez avec les identifiants Sandbox. Configurez-les dans l’environnement du serveur; ne les inscrivez jamais dans le code, dans Git ou dans le navigateur.
