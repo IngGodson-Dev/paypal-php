@@ -156,23 +156,6 @@ La suite GitHub Actions exécute aussi les tests avec PHP 8.0 à 8.3 et PHP 8.5,
 - Le client a des délais de connexion et de réponse, mais pas de stratégie de nouvelle tentative automatique.
 - Le client ne remplace pas les exigences de conformité, de journalisation ou de gestion des webhooks propres à votre application.
 
-## Publier sur GitHub
-
-1. Créez un dépôt GitHub vide.
-2. Depuis ce dossier, initialisez Git et poussez la branche principale :
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial PayPal PHP client"
-   git branch -M main
-   git remote add origin https://github.com/VOTRE-COMPTE/VOTRE-DEPOT.git
-   git push -u origin main
-   ```
-
-3. Remplacez `goddy/paypal-php` dans `composer.json` par `votre-compte/nom-du-depot` avant publication Composer Packagist.
-4. Ajoutez une description et des sujets au dépôt GitHub. Ne poussez jamais vos identifiants PayPal.
-
 ## Licence
 
 Distribué sous licence MIT. Voir [LICENSE](LICENSE).
