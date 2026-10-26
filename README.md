@@ -2,7 +2,7 @@
 
 Client PHP orienté objet pour intégrer l’API **PayPal Orders v2** dans une application PHP 8.0 ou supérieure. Il gère l’authentification OAuth 2.0, la création de commandes et leur capture côté serveur.
 
-> **Interprétation du design demandé :** « SIMPLE » n’est pas un acronyme standard de conception logicielle. Ce projet applique les principes **SOLID**, notamment la responsabilité unique et l’inversion des dépendances, avec un transport HTTP injectable (approche Strategy).
+> **Interprétation :** Ce projet applique les principes **SOLID**, notamment la responsabilité unique et l’inversion des dépendances, avec un transport HTTP injectable (approche Strategy).
 
 ## Fonctionnalités
 
